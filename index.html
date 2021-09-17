@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDo-List</title>
+</head>
+<body>
+    <div class="containerAll">
+        <form id="formulario">
+            <h3>ToDo List 1.0</h3>
+            <input 
+                type="text"
+                placeholder="Ingresar tarea"
+                id="input"
+            >
+            <button type="submit" class="enviar">Enviar</button>
+        </form>
+        <div id="listaTarea"></div>
+    </div>
+
+    <template id='template'>
+        <div class="cajaTarea">
+            <p></p>
+            <h3>
+                <button class="btn finalizar">Finalizar</button>
+            </h3>
+        </div>
+    </template>
+
+    <script src="app.js"></script>
+</body>
+</html>
